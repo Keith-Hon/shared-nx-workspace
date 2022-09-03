@@ -2,12 +2,11 @@
   "name": "shared-nx-workspace",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
   "private": true,
-  "dependencies": {},
   "devDependencies": {
     "@nrwl/cli": "14.6.4",
     "@nrwl/js": "14.6.4",
+    "@nrwl/node": "14.5.1",
     "@nrwl/workspace": "14.6.4",
     "nx": "14.6.4",
     "prettier": "^2.6.2",
