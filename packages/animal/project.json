@@ -7,7 +7,7 @@
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/animal",
+        "outputPath": "packages/animal/dist",
         "tsConfig": "packages/animal/tsconfig.lib.json",
         "packageJson": "packages/animal/package.json",
         "main": "packages/animal/src/index.ts",

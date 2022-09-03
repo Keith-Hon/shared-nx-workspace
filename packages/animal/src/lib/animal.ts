@@ -1,3 +1,5 @@
-export function animal(): string {
-  return 'animal';
+export class Animal {
+  constructor() {
+    console.log(`An animal is created`);
+  }
 }
