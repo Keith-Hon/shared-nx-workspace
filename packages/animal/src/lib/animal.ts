@@ -1,7 +1,3 @@
-export class Animal {
-  
-  constructor() {
-    console.log("An animal is created");
-  }
-
+export function animal(): string {
+  return 'animal';
 }

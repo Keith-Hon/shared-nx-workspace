@@ -1,31 +1,31 @@
 {
   "$schema": "../../node_modules/nx/schemas/project-schema.json",
-  "sourceRoot": "packages/animal/src",
+  "sourceRoot": "packages/dog/src",
   "projectType": "library",
   "targets": {
     "build": {
       "executor": "@nrwl/js:tsc",
       "outputs": ["{options.outputPath}"],
       "options": {
-        "outputPath": "dist/packages/animal",
-        "tsConfig": "packages/animal/tsconfig.lib.json",
-        "packageJson": "packages/animal/package.json",
-        "main": "packages/animal/src/index.ts",
-        "assets": ["packages/animal/*.md"]
+        "outputPath": "dist/packages/dog",
+        "tsConfig": "packages/dog/tsconfig.lib.json",
+        "packageJson": "packages/dog/package.json",
+        "main": "packages/dog/src/index.ts",
+        "assets": ["packages/dog/*.md"]
       }
     },
     "lint": {
       "executor": "@nrwl/linter:eslint",
       "outputs": ["{options.outputFile}"],
       "options": {
-        "lintFilePatterns": ["packages/animal/**/*.ts"]
+        "lintFilePatterns": ["packages/dog/**/*.ts"]
       }
     },
     "test": {
       "executor": "@nrwl/jest:jest",
-      "outputs": ["coverage/packages/animal"],
+      "outputs": ["coverage/packages/dog"],
       "options": {
-        "jestConfig": "packages/animal/jest.config.ts",
+        "jestConfig": "packages/dog/jest.config.ts",
         "passWithNoTests": true
       }
     }

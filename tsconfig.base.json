@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "@shared-packages/animal": ["packages/animal/src/index.ts"]
+      "shared-nx-animal": ["packages/animal/src/index.ts"],
+      "shared-nx-dog": ["packages/dog/src/index.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
