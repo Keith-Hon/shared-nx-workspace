@@ -1,5 +1,12 @@
 {
   "name": "shared-nx-dog",
-  "version": "0.0.4",
-  "main": "dist/src/index.js"
+  "version": "0.0.9",
+  "main": "dist/src/index.js",
+  "files": ["dist"],
+  "typings": "dist/src/index.d.ts",
+  "dependencies": {
+    "shared-nx-animal": "0.0.3",
+    "tslib": "^2.3.0"
+  },
+  "peerDependencies": {}
 }
