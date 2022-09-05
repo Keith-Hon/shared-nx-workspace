@@ -11,7 +11,9 @@
         "tsConfig": "packages/dog/tsconfig.lib.json",
         "packageJson": "packages/dog/package.json",
         "main": "packages/dog/src/index.ts",
-        "assets": ["packages/dog/*.md"]
+        "assets": ["packages/dog/*.md"],
+        "updateBuildableProjectDepsInPackageJson": true,
+        "buildableProjectDepsInPackageJsonType": "dependencies"
       }
     },
     "lint": {
